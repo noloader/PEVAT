@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/pevat/!svn/ver/8/inno-installer
+END
+copy-components.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/pevat/!svn/ver/5/inno-installer/copy-components.cmd
+END
+installer.iss
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/pevat/!svn/ver/8/inno-installer/installer.iss
+END
+pevat-setup.exe
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/pevat/!svn/ver/8/inno-installer/pevat-setup.exe
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/pevat/!svn/ver/6/inno-installer/x64
+END
+Pevat.exe
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/pevat/!svn/ver/6/inno-installer/x64/Pevat.exe
+END
+vcredist_x64.exe
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/pevat/!svn/ver/5/inno-installer/x64/vcredist_x64.exe
+END
