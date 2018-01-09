@@ -17,6 +17,9 @@
 
 DWORD LaunchUpdateThread()
 {
+	return ERROR_SUCCESS;
+
+#if 0
     CWinApp* pApplication = AfxGetApp();
     ASSERT( NULL != pApplication );
     if( NULL != pApplication )
@@ -42,10 +45,14 @@ DWORD LaunchUpdateThread()
     pThread->ResumeThread();
 
     return ERROR_SUCCESS;
+#endif
 }
 
 UINT CDECL UpdateThreadProc( LPVOID /*lpParams*/ )
 {
+	return ERROR_SUCCESS;
+
+#if 0
     DWORD dwLastError = ERROR_SUCCESS;
     INT nResult = 0;
 
@@ -243,6 +250,7 @@ UINT CDECL UpdateThreadProc( LPVOID /*lpParams*/ )
     WSACleanup();
 
     return dwLastError;
+#endif
 }
 
 bool GetProductName( string& name )
